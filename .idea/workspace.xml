@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7da02ee-3678-4b6b-91bc-e70e27a19faf" name="Default Changelist" comment="" />
+    <list default="true" id="d7da02ee-3678-4b6b-91bc-e70e27a19faf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BillActionImplements/DataBundle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BillActionImplements/PhoneCall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BillActionImplements/PhoneCall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BillActionImplements/SMSBundle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BillActionImplements/SMSBundle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/PhoneBillTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/PhoneBillTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +22,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1eFmd0U8JZsmoFab1lcjMTP38aG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -27,12 +38,103 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="BillActionImplements" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.PhoneBillTest.shouldTestPhoneBillAcceptForSMSBundle">
+    <configuration name="PhoneBillTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PolymorphicPhoneBill" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.PhoneBillTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhoneBillTest.shouldTestPhoneBillAccept" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PolymorphicPhoneBill" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.PhoneBillTest" />
+      <option name="METHOD_NAME" value="shouldTestPhoneBillAccept" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhoneBillTest.shouldTestPhoneBillAcceptForAPhoneCall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PolymorphicPhoneBill" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.PhoneBillTest" />
+      <option name="METHOD_NAME" value="shouldTestPhoneBillAcceptForAPhoneCall" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhoneBillTest.shouldTestPhoneBillAcceptForDataBundle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PolymorphicPhoneBill" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.PhoneBillTest" />
+      <option name="METHOD_NAME" value="shouldTestPhoneBillAcceptForDataBundle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhoneBillTest.shouldTestPhoneBillAcceptForSMSBundle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PolymorphicPhoneBill" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.PhoneBillTest" />
+      <option name="METHOD_NAME" value="shouldTestPhoneBillAcceptForSMSBundle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PhoneBillTest.shouldTestPhoneBillAcceptForSMSBundle" />
+        <item itemvalue="JUnit.PhoneBillTest.shouldTestPhoneBillAcceptForAPhoneCall" />
+        <item itemvalue="JUnit.PhoneBillTest" />
+        <item itemvalue="JUnit.PhoneBillTest.shouldTestPhoneBillAcceptForDataBundle" />
+        <item itemvalue="JUnit.PhoneBillTest.shouldTestPhoneBillAccept" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -48,17 +150,52 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="524" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1593927846507">
+    <state x="167" y="127" width="1099" height="543" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1593930414922">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="524" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1593927846507" />
+    <state x="167" y="127" width="1099" height="543" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/67.27.1299.741@67.27.1299.741" timestamp="1593930414922" />
+    <state x="524" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1593929940352">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="524" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1593929940352" />
     <state x="469" y="283" width="494" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1593927519172">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="469" y="283" width="494" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/67.27.1299.741@67.27.1299.741" timestamp="1593927519172" />
+    <state width="1253" height="175" key="GridCell.Tab.0.bottom" timestamp="1593975662624">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="175" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1593975662624" />
+    <state width="1253" height="175" key="GridCell.Tab.0.center" timestamp="1593975662619">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="175" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1593975662619" />
+    <state width="1253" height="175" key="GridCell.Tab.0.left" timestamp="1593975662616">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="175" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1593975662616" />
+    <state width="1253" height="175" key="GridCell.Tab.0.right" timestamp="1593975662620">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="175" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1593975662620" />
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1593963915103">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1593963915102" />
     <state x="388" y="292" width="646" height="208" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1593927246829">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="388" y="292" width="646" height="208" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/67.27.1299.741@67.27.1299.741" timestamp="1593927246829" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BillActionImplements/PhoneCall.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
