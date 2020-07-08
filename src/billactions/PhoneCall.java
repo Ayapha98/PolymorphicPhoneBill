@@ -1,4 +1,4 @@
-package BillActionImplements;
+package billactions;
 
 public class PhoneCall implements BillAction {
     double price;

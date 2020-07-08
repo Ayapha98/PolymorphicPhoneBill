@@ -1,4 +1,4 @@
-package BillActionImplements;
+package billactions;
 
 public class DataBundle implements BillAction {
     double dataCost;
@@ -8,9 +8,6 @@ public class DataBundle implements BillAction {
 
     }
     public void dataUsage(int megabytes){
-
-
-
      if (megabytes>=1000){
             dataCost = (megabytes*0.35);
         }else if (megabytes>=500){

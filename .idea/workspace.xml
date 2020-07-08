@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7da02ee-3678-4b6b-91bc-e70e27a19faf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/tests/BillActionTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PolymorphicPhoneBill/BillActionImplements/BillAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PolymorphicPhoneBill/BillActionImplements/DataBundle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PolymorphicPhoneBill/BillActionImplements/PhoneCall.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PolymorphicPhoneBill/BillActionImplements/SMSBundle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PolymorphicPhoneBill/PhoneBill/PhoneBill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PolymorphicPhoneBill/tests/PhoneBillTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PolymorphicPhoneBill/tests/PhoneBillTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BillActionImplements/BillAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/billactions/BillAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BillActionImplements/DataBundle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/billactions/DataBundle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BillActionImplements/PhoneCall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/billactions/PhoneCall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BillActionImplements/SMSBundle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/billactions/SMSBundle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PhoneBill/PhoneBill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/phonebill/PhoneBill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/PhoneBillTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/PhoneBillTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +54,8 @@
       <recent name="BillActionImplements" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PhoneBillTest.shouldTestPhoneBillAcceptForSMSBundle">
-    <configuration name="PhoneBillTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BillActionTests.BillActionTotalsPhoneCallCostTest">
+    <configuration name="BillActionTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PolymorphicPhoneBill" />
       <extension name="coverage">
         <pattern>
@@ -51,13 +64,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.PhoneBillTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.BillActionTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneBillTest.shouldTestPhoneBillAccept" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BillActionTests.BillActionTotalsDataBundleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PolymorphicPhoneBill" />
       <extension name="coverage">
         <pattern>
@@ -66,14 +79,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.PhoneBillTest" />
-      <option name="METHOD_NAME" value="shouldTestPhoneBillAccept" />
+      <option name="MAIN_CLASS_NAME" value="tests.BillActionTests" />
+      <option name="METHOD_NAME" value="BillActionTotalsDataBundleTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneBillTest.shouldTestPhoneBillAcceptForAPhoneCall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BillActionTests.BillActionTotalsPhoneCallCostTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PolymorphicPhoneBill" />
       <extension name="coverage">
         <pattern>
@@ -82,14 +95,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.PhoneBillTest" />
-      <option name="METHOD_NAME" value="shouldTestPhoneBillAcceptForAPhoneCall" />
+      <option name="MAIN_CLASS_NAME" value="tests.BillActionTests" />
+      <option name="METHOD_NAME" value="BillActionTotalsPhoneCallCostTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneBillTest.shouldTestPhoneBillAcceptForDataBundle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BillActionTests.BillActionTotalsSmsBundleCostTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PolymorphicPhoneBill" />
       <extension name="coverage">
         <pattern>
@@ -98,14 +111,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.PhoneBillTest" />
-      <option name="METHOD_NAME" value="shouldTestPhoneBillAcceptForDataBundle" />
+      <option name="MAIN_CLASS_NAME" value="tests.BillActionTests" />
+      <option name="METHOD_NAME" value="BillActionTotalsSmsBundleCostTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneBillTest.shouldTestPhoneBillAcceptForSMSBundle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PhoneBillTest.PhoneBillTotalCostMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PolymorphicPhoneBill" />
       <extension name="coverage">
         <pattern>
@@ -115,7 +128,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.PhoneBillTest" />
-      <option name="METHOD_NAME" value="shouldTestPhoneBillAcceptForSMSBundle" />
+      <option name="METHOD_NAME" value="PhoneBillTotalCostMethod" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PhoneBillTest.shouldTestPhoneBillAcceptForSMSBundle" />
-        <item itemvalue="JUnit.PhoneBillTest.shouldTestPhoneBillAcceptForAPhoneCall" />
-        <item itemvalue="JUnit.PhoneBillTest" />
-        <item itemvalue="JUnit.PhoneBillTest.shouldTestPhoneBillAcceptForDataBundle" />
-        <item itemvalue="JUnit.PhoneBillTest.shouldTestPhoneBillAccept" />
+        <item itemvalue="JUnit.BillActionTests.BillActionTotalsPhoneCallCostTest" />
+        <item itemvalue="JUnit.BillActionTests" />
+        <item itemvalue="JUnit.BillActionTests.BillActionTotalsDataBundleTest" />
+        <item itemvalue="JUnit.BillActionTests.BillActionTotalsSmsBundleCostTest" />
+        <item itemvalue="JUnit.PhoneBillTest.PhoneBillTotalCostMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -157,22 +170,22 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="469" y="283" width="494" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/67.27.1299.741@67.27.1299.741" timestamp="1593927519172" />
-    <state width="1253" height="175" key="GridCell.Tab.0.bottom" timestamp="1593976124960">
+    <state width="1253" height="175" key="GridCell.Tab.0.bottom" timestamp="1594219700201">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="175" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1593976124960" />
-    <state width="1253" height="175" key="GridCell.Tab.0.center" timestamp="1593976124958">
+    <state width="1253" height="175" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1594219700201" />
+    <state width="1253" height="175" key="GridCell.Tab.0.center" timestamp="1594219700199">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="175" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1593976124958" />
-    <state width="1253" height="175" key="GridCell.Tab.0.left" timestamp="1593976124956">
+    <state width="1253" height="175" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1594219700199" />
+    <state width="1253" height="175" key="GridCell.Tab.0.left" timestamp="1594219700198">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="175" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1593976124956" />
-    <state width="1253" height="175" key="GridCell.Tab.0.right" timestamp="1593976124959">
+    <state width="1253" height="175" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1594219700198" />
+    <state width="1253" height="175" key="GridCell.Tab.0.right" timestamp="1594219700200">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="175" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1593976124959" />
+    <state width="1253" height="175" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1594219700200" />
     <state x="372" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1593963915103">
       <screen x="67" y="27" width="1299" height="741" />
     </state>

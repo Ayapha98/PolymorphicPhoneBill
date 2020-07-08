@@ -1,9 +1,9 @@
 package tests;
 
-import BillActionImplements.DataBundle;
-import BillActionImplements.PhoneCall;
-import BillActionImplements.SMSBundle;
-import PhoneBill.PhoneBill;
+import billactions.DataBundle;
+import billactions.PhoneCall;
+import billactions.SMSBundle;
+import phonebill.PhoneBill;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -30,6 +30,19 @@ public class PhoneBillTest {
         double cost = smsBill.total();
         assertEquals(4.76, cost, 0.001);
     }
-
-
+    @Test
+    public void shouldCheckPhoneBillTotalMethod() {
+        PhoneBill bill = new PhoneBill();
+        bill.accept(new PhoneCall(18.50));
+        bill.accept(new PhoneCall(75.50));
+        bill.accept(new PhoneCall(20.50));
+        bill.accept(new DataBundle(1600));
+        bill.accept(new DataBundle(300));
+        bill.accept(new DataBundle(200));
+        bill.accept(new SMSBundle(5,0.50));
+        bill.accept(new SMSBundle(60,0.50));
+        bill.accept(new SMSBundle(7,0.50));
+        double cost = bill.total();
+        assertEquals(1085.50, cost, 0.001);
+    }
 }

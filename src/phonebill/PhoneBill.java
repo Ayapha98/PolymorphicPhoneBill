@@ -1,6 +1,6 @@
-package PhoneBill;
+package phonebill;
 
-import BillActionImplements.BillAction;
+import billactions.BillAction;
 
 public class PhoneBill {
 

@@ -1,4 +1,4 @@
-package BillActionImplements;
+package billactions;
 
 public class SMSBundle implements BillAction {
     int qty;
